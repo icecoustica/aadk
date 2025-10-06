@@ -1,0 +1,167 @@
+[06-Oct-2025 05:42:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Console\proc_close() in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php:219
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(196): Symfony\Component\Console\Terminal::readFromProcess()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(162): Symfony\Component\Console\Terminal::getSttyColumns()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(153): Symfony\Component\Console\Terminal::initDimensionsUsingStty()
+#3 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(94): Symfony\Component\Console\Terminal::initDimensions()
+#4 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(887): Symfony\Component\Console\Terminal->getWidth()
+#5 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(863): Symfony\Component\Console\Application->doRenderThrowable()
+#6 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony\Component\Console\Application->renderThrowable()
+#7 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Exceptions\Handler->renderForConsole()
+#8 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(192): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#9 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php on line 219
+[06-Oct-2025 05:42:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Console\proc_close() in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php:219
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(196): Symfony\Component\Console\Terminal::readFromProcess()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(162): Symfony\Component\Console\Terminal::getSttyColumns()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(153): Symfony\Component\Console\Terminal::initDimensionsUsingStty()
+#3 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(94): Symfony\Component\Console\Terminal::initDimensions()
+#4 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(887): Symfony\Component\Console\Terminal->getWidth()
+#5 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(863): Symfony\Component\Console\Application->doRenderThrowable()
+#6 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony\Component\Console\Application->renderThrowable()
+#7 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Exceptions\Handler->renderForConsole()
+#8 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(192): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#9 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(234): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php on line 219
+[06-Oct-2025 05:48:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Console\proc_close() in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php:219
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(196): Symfony\Component\Console\Terminal::readFromProcess()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(162): Symfony\Component\Console\Terminal::getSttyColumns()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(153): Symfony\Component\Console\Terminal::initDimensionsUsingStty()
+#3 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(94): Symfony\Component\Console\Terminal::initDimensions()
+#4 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(887): Symfony\Component\Console\Terminal->getWidth()
+#5 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(863): Symfony\Component\Console\Application->doRenderThrowable()
+#6 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony\Component\Console\Application->renderThrowable()
+#7 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Exceptions\Handler->renderForConsole()
+#8 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(192): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#9 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php on line 219
+[06-Oct-2025 05:48:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Console\proc_close() in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php:219
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(196): Symfony\Component\Console\Terminal::readFromProcess()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(162): Symfony\Component\Console\Terminal::getSttyColumns()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(153): Symfony\Component\Console\Terminal::initDimensionsUsingStty()
+#3 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(94): Symfony\Component\Console\Terminal::initDimensions()
+#4 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(887): Symfony\Component\Console\Terminal->getWidth()
+#5 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(863): Symfony\Component\Console\Application->doRenderThrowable()
+#6 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony\Component\Console\Application->renderThrowable()
+#7 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Exceptions\Handler->renderForConsole()
+#8 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(192): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#9 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(234): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php on line 219
+[06-Oct-2025 06:02:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Console\proc_close() in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php:219
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(196): Symfony\Component\Console\Terminal::readFromProcess()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(162): Symfony\Component\Console\Terminal::getSttyColumns()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(153): Symfony\Component\Console\Terminal::initDimensionsUsingStty()
+#3 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(94): Symfony\Component\Console\Terminal::initDimensions()
+#4 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(887): Symfony\Component\Console\Terminal->getWidth()
+#5 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(863): Symfony\Component\Console\Application->doRenderThrowable()
+#6 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony\Component\Console\Application->renderThrowable()
+#7 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Exceptions\Handler->renderForConsole()
+#8 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(192): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#9 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php on line 219
+[06-Oct-2025 06:02:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Console\proc_close() in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php:219
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(196): Symfony\Component\Console\Terminal::readFromProcess()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(162): Symfony\Component\Console\Terminal::getSttyColumns()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(153): Symfony\Component\Console\Terminal::initDimensionsUsingStty()
+#3 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(94): Symfony\Component\Console\Terminal::initDimensions()
+#4 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(887): Symfony\Component\Console\Terminal->getWidth()
+#5 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(863): Symfony\Component\Console\Application->doRenderThrowable()
+#6 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony\Component\Console\Application->renderThrowable()
+#7 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Exceptions\Handler->renderForConsole()
+#8 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(192): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#9 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(234): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php on line 219
+[06-Oct-2025 06:02:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Console\proc_close() in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php:219
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(196): Symfony\Component\Console\Terminal::readFromProcess()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(162): Symfony\Component\Console\Terminal::getSttyColumns()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(153): Symfony\Component\Console\Terminal::initDimensionsUsingStty()
+#3 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(94): Symfony\Component\Console\Terminal::initDimensions()
+#4 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(887): Symfony\Component\Console\Terminal->getWidth()
+#5 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(863): Symfony\Component\Console\Application->doRenderThrowable()
+#6 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony\Component\Console\Application->renderThrowable()
+#7 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Exceptions\Handler->renderForConsole()
+#8 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(192): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#9 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php on line 219
+[06-Oct-2025 06:02:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Console\proc_close() in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php:219
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(196): Symfony\Component\Console\Terminal::readFromProcess()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(162): Symfony\Component\Console\Terminal::getSttyColumns()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(153): Symfony\Component\Console\Terminal::initDimensionsUsingStty()
+#3 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(94): Symfony\Component\Console\Terminal::initDimensions()
+#4 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(887): Symfony\Component\Console\Terminal->getWidth()
+#5 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(863): Symfony\Component\Console\Application->doRenderThrowable()
+#6 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony\Component\Console\Application->renderThrowable()
+#7 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Exceptions\Handler->renderForConsole()
+#8 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(192): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#9 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(234): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php on line 219
+[06-Oct-2025 06:04:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Console\proc_close() in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php:219
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(196): Symfony\Component\Console\Terminal::readFromProcess()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(162): Symfony\Component\Console\Terminal::getSttyColumns()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(153): Symfony\Component\Console\Terminal::initDimensionsUsingStty()
+#3 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(94): Symfony\Component\Console\Terminal::initDimensions()
+#4 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(887): Symfony\Component\Console\Terminal->getWidth()
+#5 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(863): Symfony\Component\Console\Application->doRenderThrowable()
+#6 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony\Component\Console\Application->renderThrowable()
+#7 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Exceptions\Handler->renderForConsole()
+#8 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(192): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#9 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php on line 219
+[06-Oct-2025 06:04:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Console\proc_close() in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php:219
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(196): Symfony\Component\Console\Terminal::readFromProcess()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(162): Symfony\Component\Console\Terminal::getSttyColumns()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(153): Symfony\Component\Console\Terminal::initDimensionsUsingStty()
+#3 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php(94): Symfony\Component\Console\Terminal::initDimensions()
+#4 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(887): Symfony\Component\Console\Terminal->getWidth()
+#5 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Application.php(863): Symfony\Component\Console\Application->doRenderThrowable()
+#6 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony\Component\Console\Application->renderThrowable()
+#7 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Exceptions\Handler->renderForConsole()
+#8 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(192): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#9 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(234): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/symfony/console/Terminal.php on line 219
+[06-Oct-2025 14:06:40 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\Console\proc_close() in phar:///home2/icecoustica/iceink.com.my/artwork/aadk/composer.phar/vendor/symfony/console/Terminal.php:168
+Stack trace:
+#0 phar:///home2/icecoustica/iceink.com.my/artwork/aadk/composer.phar/vendor/symfony/console/Terminal.php(145): Symfony\Component\Console\Terminal::readFromProcess()
+#1 phar:///home2/icecoustica/iceink.com.my/artwork/aadk/composer.phar/vendor/symfony/console/Terminal.php(111): Symfony\Component\Console\Terminal::getSttyColumns()
+#2 phar:///home2/icecoustica/iceink.com.my/artwork/aadk/composer.phar/vendor/symfony/console/Terminal.php(94): Symfony\Component\Console\Terminal::initDimensionsUsingStty()
+#3 phar:///home2/icecoustica/iceink.com.my/artwork/aadk/composer.phar/vendor/symfony/console/Terminal.php(52): Symfony\Component\Console\Terminal::initDimensions()
+#4 phar:///home2/icecoustica/iceink.com.my/artwork/aadk/composer.phar/vendor/symfony/console/Application.php(140): Symfony\Component\Console\Terminal->getHeight()
+#5 phar:///home2/icecoustica/iceink.com.my/artwork/aadk/composer.phar/src/Composer/Console/Application.php(137): Symfony\Component\Console\Application->run()
+#6 phar:///home2/icecoustica/iceink.com.my/artwork/aadk/composer.phar/bin/composer(98): Composer\Console\Application->run()
+#7 /home2/icecoustica/iceink.com.my/artwork/aadk/composer.phar(29): require('phar:///home2/i...')
+#8 {main}
+  thrown in phar:///home2/icecoustica/iceink.com.my/artwork/aadk/composer.phar/vendor/symfony/console/Terminal.php on line 168

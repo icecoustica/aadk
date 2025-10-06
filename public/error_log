@@ -1,0 +1,18 @@
+[06-Oct-2025 13:28:41 Asia/Kuala_Lumpur] PHP Warning:  require(/home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/../myclabs/deep-copy/src/DeepCopy/deep_copy.php): Failed to open stream: No such file or directory in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/autoload_real.php on line 41
+[06-Oct-2025 13:28:41 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/../myclabs/deep-copy/src/DeepCopy/deep_copy.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/autoload.php(22): ComposerAutoloaderInit626b9e7ddd47fb7eff9aaa53cce0c9ad::getLoader()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/public/index.php(13): require('/home2/icecoust...')
+#3 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/autoload_real.php on line 41
+[06-Oct-2025 15:08:07 Asia/Kuala_Lumpur] PHP Warning:  include(/home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/../fakerphp/faker/src/Faker/Factory.php): Failed to open stream: No such file or directory in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/ClassLoader.php on line 576
+[06-Oct-2025 15:08:07 Asia/Kuala_Lumpur] PHP Warning:  include(): Failed opening '/home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/../fakerphp/faker/src/Faker/Factory.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/ClassLoader.php on line 576
+[06-Oct-2025 15:08:07 Asia/Kuala_Lumpur] PHP Warning:  require(/home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/../myclabs/deep-copy/src/DeepCopy/deep_copy.php): Failed to open stream: No such file or directory in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/autoload_real.php on line 41
+[06-Oct-2025 15:08:07 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/../myclabs/deep-copy/src/DeepCopy/deep_copy.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/autoload.php(22): ComposerAutoloaderInit626b9e7ddd47fb7eff9aaa53cce0c9ad::getLoader()
+#2 /home2/icecoustica/iceink.com.my/artwork/aadk/public/index.php(13): require('/home2/icecoust...')
+#3 {main}
+  thrown in /home2/icecoustica/iceink.com.my/artwork/aadk/vendor/composer/autoload_real.php on line 41

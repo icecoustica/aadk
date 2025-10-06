@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Schema; // ← penting, pastikan ini ada
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,6 +20,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        // Fix untuk masalah "Specified key was too long" on some MySQL/MariaDB hosts
+        Schema::defaultStringLength(191);
     }
 }
