@@ -36,4 +36,30 @@ if($video) {
 @endif
 
 </div>
+
+
+
+@php
+$city = urlencode('Kuala Lumpur');
+$country = urlencode('Malaysia');
+$method = 2;
+
+$response = file_get_contents("https://api.aladhan.com/v1/timingsByCity?city={$city}&country={$country}&method={$method}");
+$data = json_decode($response, true);
+
+$timings = $data['data']['timings'] ?? [];
+@endphp
+
+<div class="prayer-times">
+    <h2>Waktu Solat - Kuala Lumpur</h2>
+    <ul>
+        @foreach($timings as $name => $time)
+            <li>{{ $name }}: {{ $time }}</li>
+        @endforeach
+    </ul>
+</div>
+
+
+
+
 @endsection
