@@ -121,12 +121,14 @@
 
 </head>
 <body>
+    {{-- 
     <nav class="nav">
         <ul class="nav-links">
             <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a></li>
             <li><a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">About</a></li>
         </ul>
     </nav>
+    --}}
 
     <div class="container">
         @yield('content')
