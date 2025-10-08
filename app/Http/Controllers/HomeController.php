@@ -18,12 +18,11 @@ class HomeController extends Controller
             'year_2021',
             'year_2022',
             'year_2023',
-            'year_2024',
-            'year_2025'
+            'year_2024'
         )->get();
 
         // Senarai tahun untuk pakai di chart
-        $labels = ['2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'];
+        $labels = ['2018', '2019', '2020', '2021', '2022', '2023', '2024'];
 
         // Convert setiap negeri jadi dataset
         $datasets = $statistics->map(function ($item) {

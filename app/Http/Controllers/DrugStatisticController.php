@@ -10,7 +10,7 @@ class DrugStatisticController extends Controller
     {
         $records = DrugStatistic::all();
 
-        $labels = ['2018','2019','2020','2021','2022','2023','2024','2025'];
+        $labels = ['2018','2019','2020','2021','2022','2023','2024'];
 
         $datasets = $records->map(function ($record) {
             return [
@@ -23,7 +23,7 @@ class DrugStatisticController extends Controller
                     $record->year_2022,
                     $record->year_2023,
                     $record->year_2024,
-                    $record->year_2025,
+                    
                 ],
                 'borderWidth' => 2,
                 'fill' => false,
