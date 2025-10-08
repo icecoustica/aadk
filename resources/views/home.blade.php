@@ -54,8 +54,76 @@
 <div class="row-dashboard">
     {{-- Column 1: Placeholder --}}
     <div class="col">
-        <img src="https://placehold.co/350x250?text=Placeholder+Image" alt="Placeholder">
+        <h2>Kadar Penyalahgunaan Dadah Mengikut Negeri (2018–2025)</h2>
+
+    <div class="chart-container">
+        <canvas id="drugChart"></canvas>
     </div>
+
+    <!-- 1️⃣ Load Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('drugChart');
+
+        const chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: @json($labels),
+                datasets: @json($datasets),
+            },
+            options: {
+                responsive: true,
+                interaction: {
+                    mode: 'nearest',
+                    intersect: false,
+                },
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                    },
+                    tooltip: {
+                        enabled: true,
+                        callbacks: {
+                            label: function(context) {
+                                return context.dataset.label + ': ' + context.parsed.y.toLocaleString();
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Jumlah Kes'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Tahun'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     {{-- Column 2: Waktu Solat --}}
     <div class="col">
@@ -132,6 +200,14 @@
 
     loadWeather();
 </script>
+
+
+
+
+
+ 
+
+
 
 <style>
    /* ===== FLEX 3-COLUMN LAYOUT ===== */
@@ -233,6 +309,21 @@
 .weather-box p {
     margin: 3px 0;
 }
+
+        h2 {
+            text-align: center;
+            color: #fff;
+  font-size: 20px;
+        }
+        .chart-container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
 
 </style>
 
