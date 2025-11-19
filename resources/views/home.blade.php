@@ -49,6 +49,8 @@
     $data = json_decode($response, true);
 
     $timings = $data['data']['timings'] ?? [];
+    
+unset($timings['Midnight'], $timings['Firstthird'], $timings['Lastthird']);
 @endphp
 
 <div class="row-dashboard">
@@ -324,6 +326,35 @@
             border-radius: 16px;
             box-shadow: 0 6px 15px rgba(0,0,0,0.1);
         }
+        
+        
+        .video-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 95%;
+    margin: 20px auto;
+    height: 650px; /* <-- Tinggikan ikut suka. Try 500–600px */
+}
+
+.video-container iframe {
+    width: 50%;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .video-container {
+        flex-direction: column;
+        height: auto;
+    }
+    .video-container iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
 
 </style>
 
