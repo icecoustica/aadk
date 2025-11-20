@@ -1,6 +1,6 @@
 @extends('layout')
-
 @section('content')
+
 <div class="content">
 
     {{-- ======================================
@@ -157,16 +157,6 @@ unset($timings['Midnight'], $timings['Firstthird'], $timings['Lastthird']);
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-    new Swiper('.mySwiper', {
-        loop: true,
-        autoplay: { delay: 2500 },
-        pagination: { el: '.swiper-pagination' },
-         slidesPerView: 1, // <-- tambah ni!
-        spaceBetween: 0,
-    });
-</script>
 
 <script>
     // 🌤️ Ambil cuaca Kuala Lumpur (Open-Meteo)
@@ -220,13 +210,21 @@ unset($timings['Midnight'], $timings['Firstthird'], $timings['Lastthird']);
     align-items: stretch;
     gap: 20px;
     margin: 40px auto;
-    width: 95%;
+    width: 90%;
+    height: 45vh;
+}
+
+body {
+    padding-top: 0px !important;
+}
+.content {
+    padding-bottom: 0px !important;
 }
 
 .row-dashboard .col {
     flex: 1;
     background-color: #0f172a;
-    padding: 15px;
+    padding: 5px;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
     min-height: 280px;
@@ -234,6 +232,10 @@ unset($timings['Midnight'], $timings['Firstthird'], $timings['Lastthird']);
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.row-dashboard {
+    margin: 0px !important;
 }
 
 /* ===== Image in Left Column ===== */
@@ -334,7 +336,7 @@ unset($timings['Midnight'], $timings['Firstthird'], $timings['Lastthird']);
     gap: 20px;
     width: 95%;
     margin: 20px auto;
-    height: 650px; /* <-- Tinggikan ikut suka. Try 500–600px */
+    height: 52vh; /* <-- Tinggikan ikut suka. Try 500–600px */
 }
 
 .video-container iframe {
@@ -355,6 +357,8 @@ unset($timings['Midnight'], $timings['Firstthird'], $timings['Lastthird']);
         height: 300px;
     }
 }
+
+/* ===== FIXED 1080P SCREEN FOR TV ===== */ .screen-1080p { width: 1920px; height: 1080px; margin: 0 auto; overflow: hidden; background-color: #0f172a; /* untuk TV */ transform-origin: top left; }
 
 </style>
 

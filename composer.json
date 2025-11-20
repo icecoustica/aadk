@@ -66,8 +66,8 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
-        },
-        "cache-dir": "/home2/icecoustica/iceink.com.my/artwork/aadk/cache"
+        }
+       
     },
     "minimum-stability": "stable",
     "prefer-stable": true
