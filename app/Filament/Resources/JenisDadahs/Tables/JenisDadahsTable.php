@@ -1,0 +1,69 @@
+<?php
+
+namespace App\Filament\Resources\JenisDadahs\Tables;
+
+use Filament\Actions\BulkActionGroup;
+use Filament\Actions\DeleteBulkAction;
+use Filament\Actions\EditAction;
+use Filament\Tables\Table;
+use Filament\Tables\Columns\TextColumn;
+
+
+class JenisDadahsTable
+{
+    public static function configure(Table $table): Table
+    {
+        return $table
+            ->columns([
+                  TextColumn::make('jenis_dadah')
+                    ->searchable(),
+                TextColumn::make('y2018')
+                    ->label('2018')
+                    ->numeric()
+                    ->sortable(),
+                TextColumn::make('y2019')
+                    ->label('2019')
+                    ->numeric()
+                    ->sortable(),
+                TextColumn::make('y2020')
+                ->label('2020')
+                    ->numeric()
+                    ->sortable(),
+                TextColumn::make('y2021')
+                ->label('2021')
+                    ->numeric()
+                    ->sortable(),
+                TextColumn::make('y2022')
+                ->label('2022')
+                    ->numeric()
+                    ->sortable(),
+                TextColumn::make('y2023')
+                ->label('2023')
+                    ->numeric()
+                    ->sortable(),
+                TextColumn::make('y2024')
+                ->label('2024')
+                    ->numeric()
+                    ->sortable(),
+                TextColumn::make('created_at')
+                    ->dateTime()
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
+                TextColumn::make('updated_at')
+                    ->dateTime()
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
+            ])
+            ->filters([
+                //
+            ])
+            ->recordActions([
+                EditAction::make(),
+            ])
+            ->toolbarActions([
+                BulkActionGroup::make([
+                    DeleteBulkAction::make(),
+                ]),
+            ]);
+    }
+}

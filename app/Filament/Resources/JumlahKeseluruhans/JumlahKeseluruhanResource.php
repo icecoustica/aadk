@@ -25,6 +25,9 @@ class JumlahKeseluruhanResource extends Resource
     protected static UnitEnum|string|null $navigationGroup = '📊 Kadar Penyalahgunaan Dadah';
     protected static ?int $navigationSort = 1;
 
+    protected static ?string $pluralModelLabel = 'Jumlah Keseluruhan';
+    protected static ?string $modelLabel = 'Jumlah Keseluruhan';
+
 
 
 
