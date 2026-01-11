@@ -23,6 +23,7 @@ class AgeStatisticResource extends Resource
      protected static ?string $navigationLabel = 'Statistik Umur';
     protected static ?string $slug = 'age-statistics';
      protected static UnitEnum|string|null $navigationGroup = '📊 Kadar Penyalahgunaan Dadah';
+     protected static ?int $navigationSort = 2;
 
 
 

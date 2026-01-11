@@ -17,12 +17,15 @@ use UnitEnum; // ✅ penting — import UnitEnum
 
 class GenderStatisticResource extends Resource
 {
+    
+    
     protected static ?string $model = GenderStatistic::class;
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedUser;
      protected static ?string $navigationLabel = 'Statistik Jantina';
     protected static ?string $slug = 'gender-statistics';
      protected static UnitEnum|string|null $navigationGroup = '📊 Kadar Penyalahgunaan Dadah';
+     protected static ?int $navigationSort = 3;
 
     public static function form(Schema $schema): Schema
     {

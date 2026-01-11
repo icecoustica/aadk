@@ -193,6 +193,23 @@ unset($timings['Midnight'], $timings['Firstthird'], $timings['Lastthird']);
     loadWeather();
 </script>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".mySwiper", {
+    loop: true, // supaya slider ulang
+    autoplay: {
+      delay: 3000, // 3 saat setiap slide
+      disableOnInteraction: false, // tetap auto walau user klik
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    slidesPerView: 1,
+    spaceBetween: 10,
+  });
+</script>
+
 
 
 

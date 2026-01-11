@@ -23,6 +23,7 @@ class DrugStatisticResource extends Resource
      protected static ?string $navigationLabel = 'Statistik Negeri';
     protected static ?string $slug = 'drug-statistics';
      protected static UnitEnum|string|null $navigationGroup = '📊 Kadar Penyalahgunaan Dadah';
+     protected static ?int $navigationSort = 4;
 
  
 
