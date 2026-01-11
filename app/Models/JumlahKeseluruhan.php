@@ -10,7 +10,7 @@ class JumlahKeseluruhan extends Model
         'label',
         'y2018',
         'y2019',
-        'y2000',
+        'y2020',
         'y2021',
         'y2022',
         'y2023',
