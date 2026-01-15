@@ -23,35 +23,31 @@ class GenderStatisticForm
                     ->required(),
 
 
-                TextInput::make('2018')
+                TextInput::make('y2018')->label('2018')
                     ->required()
                     ->numeric()
                     ->default(0),
-                TextInput::make('2019')
+                TextInput::make('y2019')->label('2019')
                     ->required()
                     ->numeric()
                     ->default(0),
-                TextInput::make('2020')
+                TextInput::make('y2020')->label('2020')
                     ->required()
                     ->numeric()
                     ->default(0),
-                TextInput::make('2021')
+                TextInput::make('y2021')->label('2021')
                     ->required()
                     ->numeric()
                     ->default(0),
-                TextInput::make('2022')
+                TextInput::make('y2022')->label('2022')
                     ->required()
                     ->numeric()
                     ->default(0),
-                TextInput::make('2023')
+                TextInput::make('y2023')->label('2023')
                     ->required()
                     ->numeric()
                     ->default(0),
-                TextInput::make('2024')
-                    ->required()
-                    ->numeric()
-                    ->default(0),
-                TextInput::make('2025')
+                TextInput::make('y2024')->label('2024')
                     ->required()
                     ->numeric()
                     ->default(0),

@@ -55,4 +55,9 @@ class DrugStatisticResource extends Resource
             'edit' => EditDrugStatistic::route('/{record}/edit'),
         ];
     }
+
+    public static function isScopedToTenant(): bool
+{
+    return false;
+}
 }

@@ -16,30 +16,35 @@ class GenderStatisticsTable
             ->columns([
                 TextColumn::make('gender')
                     ->searchable(),
-                TextColumn::make('2018')
+                TextColumn::make('y2018')
+                    ->label('2018')
                     ->numeric()
                     ->sortable(),
-                TextColumn::make('2019')
+                TextColumn::make('y2019')
+                    ->label('2019')
                     ->numeric()
                     ->sortable(),
-                TextColumn::make('2020')
+                TextColumn::make('y2020')
+                    ->label('2020')
                     ->numeric()
                     ->sortable(),
-                TextColumn::make('2021')
+                TextColumn::make('y2021')
+                    ->label('2021')
                     ->numeric()
                     ->sortable(),
-                TextColumn::make('2022')
+                TextColumn::make('y2022')
+                    ->label('2022')
                     ->numeric()
                     ->sortable(),
-                TextColumn::make('2023')
+                TextColumn::make('y2023')
+                    ->label('2023')
                     ->numeric()
                     ->sortable(),
-                TextColumn::make('2024')
+                TextColumn::make('y2024')
+                    ->label('2024')
                     ->numeric()
                     ->sortable(),
-                TextColumn::make('2025')
-                    ->numeric()
-                    ->sortable(),
+               
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
